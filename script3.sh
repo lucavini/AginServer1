@@ -3,9 +3,23 @@
 while : 
 do
     T=0
-    QTD=25
+    QTD=60
     while [ $T -le $QTD ]; do
         echo "Criando Containers"
+        docker create mysql
+        docker create owncloud
+        docker create mysql
+        docker create owncloud
+        docker create mysql
+        docker create owncloud
+        docker create mysql
+        docker create owncloud
+        docker create mysql
+        docker create owncloud
+        docker create mysql
+        docker create owncloud
+        docker create mysql
+        docker create owncloud
         docker create mysql
         docker create owncloud
         let T=T+2
